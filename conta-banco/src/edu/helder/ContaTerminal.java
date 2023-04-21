@@ -1,4 +1,4 @@
-package edu.helder;
+
 import java.util.Scanner;
 
 public class ContaTerminal {
@@ -20,10 +20,9 @@ public class ContaTerminal {
       System.out.print("Olá "+ nomeCliente);
       System.out.print(", obrigado por criar uma conta no nosso banco, a sua Agencia é "+ agencia );
       System.out.print(",conta bancaria número "+ numeroConta );
-      System.out.println(" e seu saldo é "+ saldo + " já esta dispónivel para saque.");
+      System.out.println(" e seu saldo é "+ saldo + " esta dispónivel para saque.");
 
       sc.close();
  
-
     }
 }
